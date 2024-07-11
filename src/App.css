@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app {
+    background-color: #10141A;
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+}
+
+.containerBox {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+@media screen and (min-width: 1024px) {
+
+    .containerBox {
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 929px) {
+
+    .app {
+        height: 100vh;
+    }
+}

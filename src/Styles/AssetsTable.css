@@ -1,0 +1,49 @@
+.assetsBox {
+    background-color: #1D2229;
+    margin-top: 30px;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    font-size: 11px;
+}
+
+.assetsHeader {
+    margin: 10px 0 10px 0;
+}
+
+tr {
+    margin: 5px;
+    text-align: center;
+}
+
+td {
+    background-color: #2e74ad;
+}
+
+th {
+    background-color: #1133bd;
+}
+
+th,
+td {
+    border-radius: 4px;
+    width: 100vw;
+    padding: 5px;
+}
+
+@media screen and (min-width: 480px) {
+
+    .assetsBox {
+        font-size: 15px;
+
+    }
+}
+
+
+@media screen and (min-width: 1280px) {
+
+    .assetsBox {
+        font-size: 20px;
+
+    }
+}
